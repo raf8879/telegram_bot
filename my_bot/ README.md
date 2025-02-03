@@ -110,8 +110,8 @@ Dockerization for easier deployment.
 License
 This project is licensed under the MIT License. You are free to use, modify, and distribute this software in compliance with the license terms.
 
-Author
-Your Rafael Dzhabrailov
+Author:
+Rafael Dzhabrailov
 Contact: 📩 Email: rafaelrafael8879@gmail.com 🔗 LinkedIn: www.linkedin.com/in/rafael-dzhabrailov-756716330
 GitHub: https://github.com/raf8879
 Feel free to reach out with questions, suggestions, or feedback!
