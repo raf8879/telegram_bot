@@ -93,30 +93,6 @@ Analytics (admin-only):
 /analytics_2 – detailed analytics (e.g., usage per day, top features)
 
 
-File and Folder Structure
-
-my_bot/
-├── handlers/
-│   ├── start.py              # /start command, main menu
-│   ├── contact.py            # /contact command
-│   ├── pronunciation.py      # Pronunciation Check logic
-│   ├── conversation.py       # Conversation Mode logic
-│   ├── image_generation.py   # Image generation logic
-│   ├── text_chat.py          # Text Chat with roles
-│   └── commands.py           # /clear, /analytics_1, /analytics_2, etc.
-├── services/
-│   ├── analytics.py          # Basic analytics
-│   ├── detailed_analytics.py # Detailed analytics (users, usage stats)
-│   ├── openai_service.py     # Wrapper functions for OpenAI calls
-│   └── whisper_service.py    # Whisper-based voice transcription
-├── states/
-│   └── chat_states.py        # FSM states used across handlers
-├── config.py                 # Environment loading, logging setup, constants
-├── main.py                   # Entry point: sets up bot, loads routers, starts polling
-├── requirements.txt          # Python dependencies
-├── .env.example              # Example of environment variables
-└── README.md                 # Documentation
-
 
 Analytics
 analytics.json: Tracks base stats (total users, total messages).
